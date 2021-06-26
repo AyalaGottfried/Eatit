@@ -1,0 +1,24 @@
+.order-list-item {
+    background-color: transparent;
+    padding: 2%;
+    font-family: "FbJoker Regular";
+    border-color: #f2bb13;
+    border-width: 0 0 2px !important;
+    border-style: dashed;
+}
+
+.orders-group-list-container {
+    background-color: #f2f2f2;
+}
+
+.orders-group-list {
+    width: 70%;
+    margin-right: 10%;
+}
+
+.no-orders-title {
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    font-family: "FbJoker Regular";
+    text-align: center;
+}

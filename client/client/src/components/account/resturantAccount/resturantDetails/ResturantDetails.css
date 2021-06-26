@@ -1,0 +1,78 @@
+.resturant-details-container {
+    background-color: #f2f2f2;
+    padding: 3% 0;
+}
+
+.details-container {
+    border: 1px rgba(0, 0, 0, 0.125) solid;
+    background-color: white;
+    width: 70%;
+    padding: 3%;
+    margin: auto;
+}
+
+.resturant-image-detail {
+    width: 100%;
+}
+
+.resturant-image-edit-icon-row {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.details-container > table {
+    width: 10vw;
+}
+
+.resturant-image-edit-icon {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: rgba(99, 99, 99, 0.438);
+    width: 1.5vw;
+    height: 1.5vw;
+    line-height: 1.6vw;
+    text-align: center;
+    margin: 5%;
+}
+
+.resturant-image-edit-icon:hover {
+    color: #f2bb13;
+    background-color: transparent;
+}
+
+.detail-icon-before {
+    margin-left: 2%;
+    width: 13%;
+}
+
+.property-detail-container {
+    width: 33.3%;
+    display: inline-flex;
+    margin-top: 5%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-resturant-name-detail {
+    width: 40%;
+}
+
+.resturant-image-detail-container {
+    width: 20%;
+}
+
+.details-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-button-in-details {
+    font-family: "FbJoker Bold";
+    font-size: 1.5vw;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.exit-button-in-details:hover {
+    color: #f2bb13;
+}

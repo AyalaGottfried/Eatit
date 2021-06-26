@@ -1,0 +1,40 @@
+.payment-modal-container {
+    padding: 2%;
+}
+
+.rate-us-container {
+    text-align: right;
+    direction: rtl;
+}
+
+.rate-us-container > div > div {
+    text-align: center;
+}
+
+.rate-us-skip-button {
+    border: none;
+    background-color: #a61b0f;
+    font-size: 1.5vw;
+    padding: 0 6%;
+    text-align: center;
+    font-family: "FbJoker Bold";
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.rate-us-skip-button:hover {
+    color: #a61b0f;
+    background-color: black;
+}
+
+.rate-us-skip-button-container {
+    text-align: center;
+    margin: 4% 0 1% 0;
+}
+
+.loader-rate-us {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+}

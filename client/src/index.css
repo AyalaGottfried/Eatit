@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+@font-face {
+    font-family: "FbJoker Black";
+    src: local("FbJoker Black"),
+        url("./assests/fonts/FbJoker-Black.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FbJoker Light";
+    src: local("FbJoker Light"),
+        url("./assests/fonts/FbJoker-Light.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FbJoker Regular";
+    src: local("FbJoker Regular"),
+        url("./assests/fonts/FbJoker-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FbJoker Bold";
+    src: local("FbJoker Bold"),
+        url("./assests/fonts/FbJoker-Bold.otf") format("opentype");
+    font-weight: normal;
+}

@@ -1,0 +1,22 @@
+.resturant-order-details-container {
+    font-family: "FbJoker Light";
+    font-size: 1.2vw;
+}
+.resturant-order-details-container > p {
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.resturant-orders-group-list-container {
+    align-items: center;
+}
+
+.management-page-container {
+    background-color: #f2f2f2;
+}
+
+.list-container-resturant-orders {
+    margin: 3% 0;
+    width: 80%;
+}

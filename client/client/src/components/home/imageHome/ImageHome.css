@@ -1,0 +1,50 @@
+.img-container {
+    background: url("./../../../assests/images/bg-img-food.jpg") no-repeat
+        center center;
+    background-size: 100%;
+    padding: 20%;
+    text-align: center;
+}
+
+.start-button {
+    border: none;
+    font-size: 2vw;
+    padding: 2% 6%;
+    text-align: center;
+    background-color: #f2bb13;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    font-family: "FbJoker Black";
+    color: black;
+}
+
+.start-button:active {
+    color: #f2bb13;
+    background-color: black;
+}
+
+.start-button .arrows {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.start-button .arrows:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.start-button:hover .arrows {
+    padding-left: 25px;
+    color: black;
+}
+
+.start-button:hover .arrows:after {
+    opacity: 1;
+    left: 0;
+}

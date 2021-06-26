@@ -1,0 +1,114 @@
+*:focus {
+    outline: none;
+}
+
+.input-field {
+    width: 100%;
+    margin: 0.5% 0;
+    box-sizing: border-box;
+    background: transparent;
+    appearance: none;
+    border-width: 0;
+    border-bottom: 3px #f28c0f solid;
+    font-family: "FbJoker Regular";
+    font-size: 1.2vw;
+    text-align: right;
+    direction: rtl;
+}
+
+.suggestion-item {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    font-family: "FbJoker Regular";
+    font-size: "1vw";
+}
+
+.suggestion-item--active {
+    background-color: #fafafa;
+    cursor: pointer;
+    font-family: "FbJoker Regular";
+    font-size: "1vw";
+}
+
+#type-container {
+    margin-left: 3%;
+    width: 60%;
+}
+
+#shippingCost-container {
+    margin-right: 3%;
+    width: 33%;
+}
+
+#type-container,
+#shippingCost-container {
+    margin-top: 0;
+}
+
+#address-container {
+    display: inline-block;
+    width: 100%;
+    margin-left: 3%;
+}
+
+#street-container {
+    display: inline-block;
+    width: 42%;
+    margin-left: 3%;
+}
+
+#number-container {
+    display: inline-block;
+    width: 15%;
+    margin-left: 3%;
+}
+
+.input-field:focus {
+    border-bottom: 3px #777777 solid;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.full-field {
+    width: 100%;
+    margin: 1vw 0;
+    display: inline-block;
+}
+
+.error-message {
+    margin: 0;
+    float: right;
+}
+
+.error-message {
+    width: 100%;
+    font-size: 0.7vw;
+    padding-bottom: 0.5%;
+    font-weight: bold;
+}
+
+#red-field {
+    color: #a61b0f;
+}
+
+#orangered-field {
+    color: rgb(219, 88, 1);
+}
+
+#orange-field {
+    color: rgb(228, 194, 0);
+}
+
+#lemonchiffon-field {
+    color: rgb(119, 165, 11);
+}
+
+#lightgreen-field {
+    color: rgb(31, 95, 15);
+}
+
+#yellowgreen-field {
+    color: rgb(11, 167, 11);
+}

@@ -1,0 +1,47 @@
+.search-box-container {
+    color: black;
+    background-color: #f2f2f2;
+    width: 10vw;
+    height: 3.8vw;
+    width: 3.8vw;
+    border: double #000000;
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+.false-state:hover {
+    background-color: black;
+    color: #f2f2f2;
+    border-color: #f2f2f2;
+}
+
+.false-state {
+    width: 3.8vw;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.true-state {
+    width: 15vw;
+    border-radius: 50px;
+}
+
+.input-search-res {
+    border: none;
+    background-color: transparent;
+    margin-right: 4%;
+    font-size: 2vw;
+    font-family: "FbJoker Bold";
+    width: 10vw;
+    text-align: right;
+}
+
+.input-search-res:focus {
+    outline: none;
+}
+
+.search-icon {
+    cursor: pointer;
+}

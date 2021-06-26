@@ -1,0 +1,64 @@
+.circle-in-nav {
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 100%;
+    border: double #f2f2f2;
+    color: #f2f2f2;
+    font-size: 2.6vw;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icon-container {
+    line-height: 3.8vw;
+}
+
+#red {
+    background-color: #a61b0f;
+}
+#red:hover {
+    color: #a61b0f;
+    background-color: black;
+    border-color: #a61b0f;
+}
+
+#pink {
+    background-color: #d9a577;
+}
+#pink:hover {
+    color: #d9a577;
+    background-color: black;
+    border-color: #d9a577;
+}
+
+#orange {
+    background-color: #f28c0f;
+}
+#orange:hover {
+    color: #f28c0f;
+    background-color: black;
+    border-color: #f28c0f;
+}
+
+#yellow {
+    background-color: #f2bb13;
+}
+#yellow:hover {
+    color: #f2bb13;
+    background-color: black;
+    border-color: #f2bb13;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.user-image {
+    height: 3.8vw;
+    width: 3.8vw;
+    object-fit: cover;
+}

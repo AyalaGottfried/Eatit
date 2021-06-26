@@ -1,0 +1,25 @@
+.App {
+    background: url("./assests/images/texture-bg.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 3vh;
+    font-family: "FbJoker Black";
+    direction: rtl;
+    cursor: context-menu;
+}
+
+* {
+    text-align: right;
+}
+
+.content {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    box-shadow: 14px 14px 23px #000000, -14px -14px 23px #000000;
+}
+
+.App-header {
+    margin-top: 1vw;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}

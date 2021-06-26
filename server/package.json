@@ -1,0 +1,21 @@
+{
+  "name": "eatit-server",
+  "version": "1.0.0",
+  "description": "server for eatit application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "nodemailer": "^6.6.1",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ayala Gottfried",
+  "license": "ISC"
+}

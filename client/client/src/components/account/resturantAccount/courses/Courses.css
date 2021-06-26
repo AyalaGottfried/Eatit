@@ -1,0 +1,70 @@
+.courses-container {
+    align-items: center;
+    height: 100%;
+}
+
+.courses-page-container {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.course-in-list {
+    width: 100%;
+    color: black;
+    font-size: 1.5vw;
+    font-family: "FbJoker Regular";
+}
+
+.plus-button:hover {
+    text-decoration: none;
+    color: black !important;
+    background-color: #f2bb13;
+}
+
+.plus-button:active {
+    background-color: #f2bb13;
+    color: #f2f2f2 !important;
+}
+
+.list-container {
+    margin: 3% 0 1% 0;
+    width: 70%;
+}
+
+.plus-button {
+    color: black;
+    font-size: 3vw;
+    font-family: "FbJoker Light";
+    line-height: 0vw;
+    margin: 0 0 3% 15%;
+    text-align: center;
+    padding: 0;
+    height: 3.5vw;
+    width: 3.5vw;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.delete-modal-container {
+    text-align: center;
+    padding: 2vw 5vw;
+}
+
+.delete-message {
+    text-align: center;
+    font-size: 2vw;
+    font-family: "FbJoker Bold";
+}
+
+.delete-button {
+    border: none;
+    background-color: #f2bb13;
+    font-size: 1.5vw;
+    padding: 1% 11%;
+    font-family: "FbJoker Regular";
+}
+
+.loader {
+    text-align: center;
+    padding-top: 3%;
+}

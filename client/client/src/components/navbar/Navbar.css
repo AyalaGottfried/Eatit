@@ -1,0 +1,120 @@
+.logo-home {
+    object-fit: cover;
+    width: 60%;
+    margin: 1% 0;
+}
+
+.top-nav-home {
+    margin: 1% 0;
+    width: 80%;
+    text-align: right;
+    min-height: 6vw;
+    display: flex;
+}
+
+.circle-navbar-main {
+    margin-left: 1.5%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.logo-home-container {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+.user-menu-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.user-button-container {
+    display: inline-block;
+    margin: 1%;
+}
+
+.m-dropdown .dropbtn {
+    border: none;
+    background-color: inherit;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f2bb13;
+    min-width: 10vw;
+    z-index: 1;
+}
+
+.dropdown-content .link {
+    float: none;
+    color: black;
+    padding: 3% 4%;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-family: "FbJoker Bold";
+}
+
+.dropdown-content .link:hover {
+    background-color: black;
+    color: #f2bb13;
+}
+
+.m-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hello-user-message-container {
+    display: inline-block;
+}
+
+.hello-user-message {
+    font-family: "FbJoker Bold";
+    line-height: 2vw;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.exit-button-in-navbar {
+    font-family: "FbJoker Regular";
+    font-size: 1.3vw;
+    margin-left: 2%;
+    cursor: pointer;
+    margin: 0;
+    color: #f2bb13;
+}
+
+.exit-button-in-navbar:hover {
+    font-family: "FbJoker Bold";
+}
+
+.popover-cart {
+    overflow-x: auto;
+    max-height: 50%;
+    max-width: 370px;
+    min-width: 370px;
+    font-family: "FbJoker Regular";
+    font-size: 1.3vw;
+}
+
+.popover-cart-header {
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: "FbJoker Regular";
+}
