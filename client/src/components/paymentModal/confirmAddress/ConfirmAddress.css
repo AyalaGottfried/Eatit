@@ -1,0 +1,70 @@
+.payment-stage {
+    height: 3.8vw;
+    width: 3.8vw;
+    margin: 1%;
+    font-size: 2.6vw;
+    text-align: center;
+    display: inline-block;
+    font-family: fantasy;
+    color: #b9b9b9;
+    margin: 2%;
+}
+
+.payment-stage-title {
+    font-size: 2.6vw;
+    font-family: "FbJoker Regular";
+    color: #b9b9b9;
+}
+
+.confirm-address-container {
+    direction: rtl;
+}
+
+.address-form > .full-field > .input-field {
+    width: 60%;
+    border-width: 0;
+    border-bottom: 3px #a61b0f solid;
+    padding: 0;
+}
+
+.address-form > .full-field > .input-field:focus {
+    border-bottom: 3px #777777 solid;
+}
+
+.address-form > .full-field {
+    text-align: center;
+    margin-top: 0;
+}
+
+.address-form > .full-field > .error-message {
+    width: 60%;
+    margin-right: 20%;
+}
+
+.confirm-address-button {
+    border: none;
+    background-color: #a61b0f;
+    font-size: 1.5vw;
+    padding: 0 6%;
+    text-align: center;
+    font-family: "FbJoker Bold";
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.confirm-address-button:hover {
+    color: #a61b0f;
+    background-color: black;
+}
+
+.confirm-address-footer {
+    width: 70%;
+    text-align: left;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}

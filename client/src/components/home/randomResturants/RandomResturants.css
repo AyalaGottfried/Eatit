@@ -1,0 +1,64 @@
+.random-resturants-container {
+    background-color: #f2f2f2;
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.random-resturants-title {
+    color: black;
+    text-align: center;
+    font-size: 3.2vw;
+    margin: 0;
+    font-family: "FbJoker Light";
+}
+
+.look-for-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.look-for-more {
+    font-size: 1.8vw;
+    padding: 0.2% 4%;
+    border: none;
+    background-color: #d9a577;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-family: "FbJoker Black";
+    outline: none;
+    color: black !important;
+}
+
+.look-for-more:active {
+    color: #d9a577;
+    background-color: black;
+}
+.look-for-more .search-more {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.look-for-more .search-more:after {
+    content: "\2315";
+    direction: ltr;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.look-for-more:hover .search-more {
+    padding-left: 25px;
+}
+
+.look-for-more:hover .search-more:after {
+    opacity: 1;
+    left: 0;
+}
+
+.four-random-resturants-container {
+    display: flex;
+}

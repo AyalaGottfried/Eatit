@@ -1,0 +1,37 @@
+.course-list-in-resturant-order-container {
+    width: 60%;
+}
+
+.name-and-amount-in-resturant-order-list {
+    width: 70%;
+}
+
+.course-list-in-resturant-order {
+    background-color: transparent;
+    border-right: 4px #f2bb13 solid !important;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+
+.course-amount-in-resturant-order-list {
+    font-size: 1.1vw;
+    padding-right: 5%;
+    color: #f2bb13;
+    font-family: arial;
+}
+
+.course-details-in-resturant-order-list {
+    display: inline-block;
+    margin-right: 5%;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.course-image-in-resturant-order-list {
+    height: 2.5vw;
+    object-fit: cover;
+    width: 12%;
+}
