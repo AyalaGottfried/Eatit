@@ -1,6 +1,7 @@
 # Eatit
-Full Stack project - Web application to manage resturants take away service and costumers orders.
-Technologies: NodeJS, React, MongoDB
+Full Stack project - Web application to manage restaurants take away service and customers orders.
+
+**Technologies:** NodeJS, React, MongoDB
 
 **To run the project:**
 
