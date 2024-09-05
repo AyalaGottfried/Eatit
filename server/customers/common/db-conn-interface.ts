@@ -1,6 +1,6 @@
 interface IDBConn {
-    init();
-    getCustomersCollection();
-    getOrdersCollection();
-    getResturantsCollection();
+    init(): Promise<void>;
+    getCustomersCollection(): void;
+    getOrdersCollection(): void;
+    getResturantsCollection(): void;
 }
