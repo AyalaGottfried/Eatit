@@ -1,4 +1,6 @@
-import {MongoClient} from "mongodb";
+import {Collection, MongoClient} from "mongodb";
+import IDBConn from "./db-conn-interface";
+import { Customer } from "./types";
 
 const MONGO_URL = "mongodb+srv://ayalaEatit:eatit1000@cluster0.6k4zi.mongodb.net/test";
 
@@ -28,7 +30,7 @@ export default class DBConn implements IDBConn {
         await this.mongo.connect();
     }
 
-    getCustomersCollection() {
+    getCustomersCollection(): Collection<Customer> {
         return this.mongo.db(COLLECTIONS.customers.db).collection(COLLECTIONS.customers.name);
     }
 
